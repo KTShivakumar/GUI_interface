@@ -1,0 +1,118 @@
+body{
+    display: block;
+    position: relative;
+    background-color:rgba(38, 16, 90, 0.599);
+}
+.main{
+    display: grid;
+    position: relative;
+}
+.main h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+.tabs{
+    display: flex;
+    color: black;
+}
+.tabs a{
+    position: relative;
+    left:50px;
+    padding: 15px 26px;
+    font-size: 19px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    text-decoration: none;
+    color:aliceblue;
+    background-image: linear-gradient(
+        to bottom,transparent 0%,transparent 90%,rgb(4, 25, 33) 90%,black 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x:right;
+    transition:  background-size 600ms;
+}
+.tabs a:hover{
+    color: red;
+    background-size: 100% 10%;
+    background-position-x:left;
+}
+img{
+    width: 350px;
+    height: 400px;
+    float: right; 
+    position: relative;
+    border-radius: 20%;
+    opacity: 0.9; 
+    object-fit:fill;
+    right: 20px;
+}
+.input_div{
+    display:flex;
+    position: fixed;
+    left:50px;
+}
+.input_div h2{
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    width: max-content;
+}
+.input_area{
+    display: block;
+    border: 2px solid red;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    width:600px;
+    height: 120px;
+    color: white;
+    background-color: transparent;
+}
+.output_div h2{
+    position: relative;
+    top: 15pc;
+    left: 1.4pc;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    width: max-content;
+}
+.output_area{
+    display: block;
+    border: 2px solid red;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    left: 155px;
+    width:600px;
+    height: 120px;
+    color: white;
+    background-color: transparent;
+}
+.submit_div{
+    display:flex;
+    position: relative;
+}
+.Submit_div input{
+    border: 2px solid red;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    padding: 15px 36px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    inset: 150px;
+    border-radius: 20px;
+    margin-right:30px;
+    margin-left: 10px;
+}
